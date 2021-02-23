@@ -1,8 +1,3126 @@
-<p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
 
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headerlink {
+  font: normal 400 16px fontawesome-mini;
+  vertical-align: middle;
+  margin-left: -16px;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0;
+  color: #333;
+}
+
+.markdown-body .headerlink:focus {
+  outline: none;
+}
+
+.markdown-body h1 .headerlink {
+  margin-top: 0.8rem;
+}
+
+.markdown-body h2 .headerlink,
+.markdown-body h3 .headerlink {
+  margin-top: 0.6rem;
+}
+
+.markdown-body h4 .headerlink {
+  margin-top: 0.2rem;
+}
+
+.markdown-body h5 .headerlink,
+.markdown-body h6 .headerlink {
+  margin-top: 0;
+}
+
+.markdown-body .headerlink:hover,
+.markdown-body h1:hover .headerlink,
+.markdown-body h2:hover .headerlink,
+.markdown-body h3:hover .headerlink,
+.markdown-body h4:hover .headerlink,
+.markdown-body h5:hover .headerlink,
+.markdown-body h6:hover .headerlink {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* MultiMarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px fontawesome-mini;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\e157';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><style>/*GitHub*/
+.codehilite {background-color:#fff;color:#333333;}
+.codehilite .hll {background-color:#ffffcc;}
+.codehilite .c{color:#999988;font-style:italic}
+.codehilite .err{color:#a61717;background-color:#e3d2d2}
+.codehilite .k{font-weight:bold}
+.codehilite .o{font-weight:bold}
+.codehilite .cm{color:#999988;font-style:italic}
+.codehilite .cp{color:#999999;font-weight:bold}
+.codehilite .c1{color:#999988;font-style:italic}
+.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
+.codehilite .gd{color:#000000;background-color:#ffdddd}
+.codehilite .ge{font-style:italic}
+.codehilite .gr{color:#aa0000}
+.codehilite .gh{color:#999999}
+.codehilite .gi{color:#000000;background-color:#ddffdd}
+.codehilite .go{color:#888888}
+.codehilite .gp{color:#555555}
+.codehilite .gs{font-weight:bold}
+.codehilite .gu{color:#800080;font-weight:bold}
+.codehilite .gt{color:#aa0000}
+.codehilite .kc{font-weight:bold}
+.codehilite .kd{font-weight:bold}
+.codehilite .kn{font-weight:bold}
+.codehilite .kp{font-weight:bold}
+.codehilite .kr{font-weight:bold}
+.codehilite .kt{color:#445588;font-weight:bold}
+.codehilite .m{color:#009999}
+.codehilite .s{color:#dd1144}
+.codehilite .n{color:#333333}
+.codehilite .na{color:teal}
+.codehilite .nb{color:#0086b3}
+.codehilite .nc{color:#445588;font-weight:bold}
+.codehilite .no{color:teal}
+.codehilite .ni{color:purple}
+.codehilite .ne{color:#990000;font-weight:bold}
+.codehilite .nf{color:#990000;font-weight:bold}
+.codehilite .nn{color:#555555}
+.codehilite .nt{color:navy}
+.codehilite .nv{color:teal}
+.codehilite .ow{font-weight:bold}
+.codehilite .w{color:#bbbbbb}
+.codehilite .mf{color:#009999}
+.codehilite .mh{color:#009999}
+.codehilite .mi{color:#009999}
+.codehilite .mo{color:#009999}
+.codehilite .sb{color:#dd1144}
+.codehilite .sc{color:#dd1144}
+.codehilite .sd{color:#dd1144}
+.codehilite .s2{color:#dd1144}
+.codehilite .se{color:#dd1144}
+.codehilite .sh{color:#dd1144}
+.codehilite .si{color:#dd1144}
+.codehilite .sx{color:#dd1144}
+.codehilite .sr{color:#009926}
+.codehilite .s1{color:#dd1144}
+.codehilite .ss{color:#990073}
+.codehilite .bp{color:#999999}
+.codehilite .vc{color:teal}
+.codehilite .vg{color:teal}
+.codehilite .vi{color:teal}
+.codehilite .il{color:#009999}
+.codehilite .gc{color:#999;background-color:#EAF2F5}
+</style><title>近现代史笔记</title></head><body><article class="markdown-body"><h1 id="_1">近现代史笔记<a class="headerlink" href="#_1" title="Permanent link"></a></h1>
+<h2 id="_2">上编 从鸦片战争战争到五四运动前夜<a class="headerlink" href="#_2" title="Permanent link"></a></h2>
+<p>1840-1949</p>
+<h3 id="_3">近代史<a class="headerlink" href="#_3" title="Permanent link"></a></h3>
 <ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
+<li>晚清时期    1840-1911</li>
+<li>
+<p>民国时期    1912-1949</p>
+<ul>
+<li>南京临时政府时期    孙中山</li>
+<li>北京政府时期    袁世凯</li>
+<li>南京政府时期</li>
 </ul>
+</li>
+</ul>
+<h3 id="_4">现代史<a class="headerlink" href="#_4" title="Permanent link"></a></h3>
+<ul>
+<li>社会主义革命和全面建成社会主义时期    1949-1978    毛泽东</li>
+<li>社会主义现代化建设新时期    1978-2012    邓小平</li>
+<li>中国特色社会主义进入新时代    2012-今</li>
+</ul>
+<h2 id="_5">综述 风云变幻的八十年<a class="headerlink" href="#_5" title="Permanent link"></a></h2>
+<h3 id="_6">一，鸦片战争前的中国与世界<a class="headerlink" href="#_6" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>（二）中国封建社会由昌盛到衰落</p>
+<ul>
+<li>
+<p>根本原因</p>
+<ul>
+<li>政府腐败，土地兼并</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_7">二，外国资本主义入侵与近代中国社会的半殖民地半封建性质<a class="headerlink" href="#_7" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>（一）鸦片战争：中国近代史的起点</p>
+<ul>
+<li>世界近代史起点：第一次工业革命_1640</li>
+<li>三角贸易：英国（纺织品）→印度（鸦片）→中国（丝绸，瓷器，茶叶，大黄）</li>
+</ul>
+</li>
+<li>
+<p>（二）中国社会的半殖民地半封建社会性质</p>
+<ul>
+<li>半殖民：国土残缺</li>
+<li>半封建：被迫资本化</li>
+</ul>
+</li>
+<li>
+<p>（三）社会阶级关系的变动</p>
+<ul>
+<li>中国有哪些阶级：地主，农民，无产，资产（官僚资产阶级+民族资产阶级）</li>
+</ul>
+</li>
+</ul>
+<h3 id="_8">三，近代中国的主要矛盾和历史任务<a class="headerlink" href="#_8" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>（一）两队主要矛盾及其关系</p>
+<ul>
+<li>革命性质分类：民族革命+民主革命</li>
+</ul>
+</li>
+<li>
+<p>（二）两大历史任务及其关系</p>
+<ul>
+<li>革命是现代化的前提</li>
+<li>现代化是革命的目标</li>
+</ul>
+</li>
+</ul>
+<h2 id="_9">第一章 反对外国侵略的斗争<a class="headerlink" href="#_9" title="Permanent link"></a></h2>
+<h3 id="-">第一节 资本-帝国主义对中国的侵略<a class="headerlink" href="#-" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，军事侵略</p>
+<ul>
+<li>先有资本，再有帝国</li>
+<li>第一第二次鸦片战争，中法战争，中日战争，八国联军侵华</li>
+</ul>
+</li>
+</ul>
+<h3 id="_10">第二节 抵御外国武装侵略 争取民族独立的斗争<a class="headerlink" href="#_10" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，反抗外来侵略的斗争历程</p>
+<ul>
+<li>救亡图存，不屈不挠，再接再厉</li>
+<li>三元里抗英，太平天国运动，洋务运动，戊戌变法，义和团运动，辛亥革命</li>
+</ul>
+</li>
+</ul>
+<h3 id="_11">第三节 反侵略战争的失败及其原因<a class="headerlink" href="#_11" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，反侵略战争的失败及其原因</p>
+<ul>
+<li>
+<p>社会制度的腐败</p>
+<ul>
+<li>吏治的系统性腐败</li>
+<li>官僚的昏聩愚昧</li>
+<li>统治者对民众力量的惧怕</li>
+</ul>
+</li>
+<li>
+<p>经济技术的落后</p>
+<ul>
+<li>武装装备的落后</li>
+<li>军队素质和作战能力的落后</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，民族意识的觉醒</p>
+<ul>
+<li>林则徐，魏源，早期维新思想，孙中山</li>
+</ul>
+</li>
+</ul>
+<h2 id="_12">第二章 对国家出路的早期探索<a class="headerlink" href="#_12" title="Permanent link"></a></h2>
+<h3 id="_13">第一节 农民群众斗争风暴的起落<a class="headerlink" href="#_13" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，太平天国农民战争</p>
+<ul>
+<li>
+<p>太平天国运动爆发原因</p>
+<ul>
+<li>农民人口增加却土地无业</li>
+<li>农民赋税增加</li>
+<li>资本主义冲击</li>
+</ul>
+</li>
+<li>
+<p>天王（洪秀全）&gt; 翼王（石达开）</p>
+</li>
+<li>转折点：天津事变，内部分裂</li>
+</ul>
+</li>
+<li>
+<p>二，农民起义的意义与局限</p>
+<ul>
+<li>
+<p>太平天国农民起义的历史意义</p>
+<ul>
+<li>
+<p>为什么说是“最高峰”？</p>
+<ul>
+<li>有比较完整的理论和纲领（尽管没有落实）</li>
+<li>冲击了儒家正统的权威</li>
+<li>有力打击了外国的侵略势力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>太平天国农民起义失败的原因和教训</p>
+<ul>
+<li>
+<p>起义只为了推翻，却没有建设</p>
+<ul>
+<li>全国还没有统一就想当皇帝</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_14">第二节 洋务运动的兴衰<a class="headerlink" href="#_14" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，洋务运动的兴办</p>
+<ul>
+<li>
+<p>发动原因</p>
+<ul>
+<li>
+<p>内因</p>
+<ul>
+<li>镇压农民起义</li>
+</ul>
+</li>
+<li>
+<p>外因</p>
+<ul>
+<li>经济全球化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>改革措施</p>
+<ul>
+<li>
+<p>擒发捻，勤远略</p>
+<ul>
+<li>创办近代企业、新式军队、新式学堂</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>指导思想</p>
+<ul>
+<li>中体西用</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，洋务运动的历史作用及失败</p>
+<ul>
+<li>
+<p>积极作用</p>
+<ul>
+<li>
+<p>使中国走向早期现代化</p>
+<ul>
+<li>教育近代化</li>
+<li>国防近代化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>消极作用</p>
+<ul>
+<li>
+<p>维护封建统治</p>
+<ul>
+<li>镇压人民革命</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>积极 &gt; 消极</p>
+</li>
+<li>
+<p>结束标志</p>
+<ul>
+<li>甲午战争失败，签订马关条约</li>
+</ul>
+</li>
+<li>
+<p>失败原因</p>
+<ul>
+<li>
+<p>指导思想封建</p>
+<ul>
+<li>目标太小，只想巩固封建统治</li>
+<li>既想发展，又不愿改变</li>
+<li>用传统方式管理近代企业</li>
+</ul>
+</li>
+<li>
+<p>依赖于列强</p>
+<ul>
+<li>没有独立主权必然会改革失败</li>
+<li>请教洋人造枪</li>
+</ul>
+</li>
+<li>
+<p>企业管理腐朽</p>
+<ul>
+<li>
+<p>经营企业的方式</p>
+<ul>
+<li>官办、官商合办、官督商办</li>
+<li>腐朽的封建衙门式管理</li>
+</ul>
+</li>
+<li>
+<p>顽固派阻挠</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>改革启示</p>
+<ul>
+<li>经济必须与政治同步发展</li>
+<li>主权独立是改革的前提</li>
+<li>改革救不了中国，必须要寻找新武器</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_15">第三节 维新运动的兴起与夭折<a class="headerlink" href="#_15" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，戊戌维新运动的开展</p>
+<ul>
+<li>
+<p>背景</p>
+<ul>
+<li>中华民族危机加深</li>
+</ul>
+</li>
+<li>
+<p>准备</p>
+<ul>
+<li>
+<p>理论准备</p>
+<ul>
+<li>著书立说</li>
+</ul>
+</li>
+<li>
+<p>干部准备</p>
+<ul>
+<li>开馆讲学</li>
+</ul>
+</li>
+<li>
+<p>舆论准备</p>
+<ul>
+<li>顽固派与维新派的报纸论战</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，戊戌维新运动的意义和教训</p>
+<ul>
+<li>
+<p>意义</p>
+<ul>
+<li>戊戌维新运动是爱国救亡运动</li>
+<li>
+<p>戊戌维新运动是资产阶级性质的政治改良运动</p>
+<ul>
+<li>注：洋务运动没有改变政治格局</li>
+</ul>
+</li>
+<li>
+<p>戊戌维新运动是思想启蒙运动</p>
+</li>
+</ul>
+</li>
+<li>
+<p>局限性</p>
+<ul>
+<li>不敢否定封建主义</li>
+<li>对帝国主义抱有幻想</li>
+<li>缺乏政治经验，策略失当</li>
+<li>惧怕人民群众</li>
+</ul>
+</li>
+<li>
+<p>失败原因</p>
+<ul>
+<li>政治落后，旧势力反对</li>
+<li>维新运动本身的局限性</li>
+</ul>
+</li>
+<li>
+<p>启发</p>
+<ul>
+<li>改良资产阶级也救不了中国</li>
+<li>暴露了中国民族资产阶级的软弱性</li>
+<li>在双半社会的中国，不能自顶向下改良</li>
+<li>要想争取国家的独立民主富强，必须用革命推翻帝国主义和封建主义联合统治的半殖民地半封建的社会制度</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_16">第四节 清末新政及其破产<a class="headerlink" href="#_16" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>概括</p>
+<ul>
+<li>实行了真正的“君主立宪”，但反而加速了晚清的灭亡</li>
+</ul>
+</li>
+</ul>
+<h2 id="_17">第三章 辛亥革命与君主专制制度的终结<a class="headerlink" href="#_17" title="Permanent link"></a></h2>
+<h3 id="_18">第一节 举起近代民族民主革命的旗帜<a class="headerlink" href="#_18" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>辛亥革命爆发</p>
+<ul>
+<li>
+<p>爆发背景</p>
+<ul>
+<li>
+<p>客观背景</p>
+<ul>
+<li>民族危机加深</li>
+<li>社会矛盾激化</li>
+<li>清末统治危机</li>
+</ul>
+</li>
+<li>
+<p>主观背景</p>
+<ul>
+<li>民族资产阶级发展</li>
+<li>组建同盟会政党</li>
+<li>提出三民主义学说</li>
+<li>在报纸上与改良派论战</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三民主义学说</p>
+<ul>
+<li>
+<p>民族主义</p>
+<ul>
+<li>前提</li>
+</ul>
+</li>
+<li>
+<p>民权主义</p>
+<ul>
+<li>
+<p>核心</p>
+<ul>
+<li>国民一律平等</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>民生主义</p>
+<ul>
+<li>
+<p>补充</p>
+<ul>
+<li>
+<p>没有解决与农民的矛盾</p>
+<ul>
+<li>土地还在地主手上</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_19">第二节 辛亥革命与建立民国<a class="headerlink" href="#_19" title="Permanent link"></a></h3>
+<ul>
+<li>一，封建帝制的覆灭</li>
+<li>
+<p>二，中华民国的建立</p>
+<ul>
+<li>
+<p>辛亥革命的历史意义</p>
+<ul>
+<li>推翻了封建的清朝统治</li>
+<li>建立了第一个资产阶级共和国</li>
+<li>
+<p>思想解放</p>
+<ul>
+<li>推动资产主义的传播</li>
+</ul>
+</li>
+<li>
+<p>促使社会经济、风俗习惯发生积极变化</p>
+</li>
+<li>冲击了帝国主义的殖民统治</li>
+</ul>
+</li>
+<li>
+<p>性质</p>
+<ul>
+<li>
+<p>比较完全意义上的资产阶级民主革命</p>
+<ul>
+<li>
+<p>为什么不是”农民阶级“的？</p>
+<ul>
+<li>自从孙中山成为同盟会领导人之后就变了</li>
+</ul>
+</li>
+<li>
+<p>为什么说是“完整的“？</p>
+<ul>
+<li>由政党发动和领导</li>
+<li>三民主义思想为指导</li>
+<li>曾建立资产阶级民主共和国</li>
+<li>具有《临时约法》</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_20">第三节 辛亥革命的失败<a class="headerlink" href="#_20" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>失败原因</p>
+<ul>
+<li>
+<p>客观原因</p>
+<ul>
+<li>
+<p>中外反动势力强大</p>
+<ul>
+<li>列强不承认临时政府</li>
+<li>列强压迫临时政府向袁世凯妥协</li>
+<li>列强切断临时政府财源（土地）</li>
+<li>内部人员倒戈</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>主观原因</p>
+<ul>
+<li>
+<p>资产阶级革命派本身的局限性</p>
+<ul>
+<li>资产阶级政党缺乏信仰</li>
+<li>没有建立坚定的政党</li>
+<li>不敢发动人民群众</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>局限性</p>
+<ul>
+<li>没有考虑到反帝反封建和动员群众</li>
+</ul>
+</li>
+<li>
+<p>失败表现</p>
+<ul>
+<li>
+<p>反帝反封建的任务还没有完成</p>
+<ul>
+<li>袁世凯称帝，则辛亥革命没有实现共和</li>
+</ul>
+</li>
+<li>
+<p>社会性质（双半社会）没有改变</p>
+</li>
+<li>没有完全建立资本主义制度</li>
+</ul>
+</li>
+<li>
+<p>结束标志</p>
+<ul>
+<li>1912年2月11日溥仪退位</li>
+<li>第二次结束是1916年10月6日袁世凯任职中华民国大总统</li>
+</ul>
+</li>
+<li>
+<p>转折点</p>
+<ul>
+<li>
+<p>1912年孙中山被迫让位袁世凯</p>
+<ul>
+<li>
+<p>原因</p>
+<ul>
+<li>清政府、袁世凯、帝国主义三方压力</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>袁世凯功绩</p>
+<ul>
+<li>镇压义和团</li>
+</ul>
+</li>
+<li>
+<p>启示</p>
+<ul>
+<li>要有一个彻底的反帝反封建的革命纲领</li>
+<li>要有一个领导核心</li>
+<li>要有一支革命武装力量</li>
+<li>要发动广大人民群众</li>
+</ul>
+</li>
+</ul>
+<h2 id="1919-1949">中编 从五四运动到新中国成立 1919-1949<a class="headerlink" href="#1919-1949" title="Permanent link"></a></h2>
+<h2 id="_21">综述 翻天覆地的三十年<a class="headerlink" href="#_21" title="Permanent link"></a></h2>
+<h2 id="_22">第四章 开天辟地的大事变<a class="headerlink" href="#_22" title="Permanent link"></a></h2>
+<h3 id="_23">第一节 新文化运动和五四运动<a class="headerlink" href="#_23" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，新文化运动与思想解放的潮流</p>
+<ul>
+<li>
+<p>新文化运动的兴起</p>
+<ul>
+<li>
+<p>代表人物</p>
+<ul>
+<li>陈独秀、李大钊、蔡元培、胡适、鲁迅</li>
+</ul>
+</li>
+<li>
+<p>发起人</p>
+<ul>
+<li>陈独秀</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>新文化运动的基本口号</p>
+<ul>
+<li>民主、科学</li>
+</ul>
+</li>
+<li>
+<p>反封建的思想解放运动</p>
+<ul>
+<li>
+<p>性质</p>
+<ul>
+<li>启蒙运动</li>
+<li>思想解放运动</li>
+</ul>
+</li>
+<li>
+<p>意义</p>
+<ul>
+<li>促进马克思主义在中国的传播</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>五四以前新文化运动的局限</p>
+<ul>
+<li>
+<p>局限性</p>
+<ul>
+<li>资本民主主义并不是一种有效的思想武器</li>
+<li>不可能通过有限的宣传和少数人的呐喊就改造社会环境</li>
+<li>当时的领导人没有批判思想，只有形式上的好与坏，导致后期走向失败</li>
+</ul>
+</li>
+<li>
+<p>为什么抵制西方资产主义？</p>
+<ul>
+<li>资本主义的内在矛盾已经比较充分地暴露出来</li>
+<li>第一次世界大战以极端的形式揭露了资本主义制度固有的不可克服的矛盾</li>
+<li>中国人学习西方屡遭失败，反被打压</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，十月革命与马克思主义在中国的传播</p>
+<ul>
+<li>
+<p>为什么学习俄国？</p>
+<ul>
+<li>十月革命的胜利让中国人民看到了希望</li>
+<li>俄国反对帝国主义，并以平等的态度对待中国</li>
+<li>
+<p>十月革命给中国的先进分子以新的革命方法启示</p>
+<ul>
+<li>发动群众爆发阶级斗争</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，五四运动：新民主主义革命的开端</p>
+<ul>
+<li>
+<p>五四运动的爆发</p>
+<ul>
+<li>
+<p>爆发条件</p>
+<ul>
+<li>工人人口数量可观</li>
+<li>新文化运动影响思想解放</li>
+<li>十月革命胜利</li>
+</ul>
+</li>
+<li>
+<p>导火索</p>
+<ul>
+<li>巴黎和会外交失败</li>
+<li>
+<p>为什么巴黎和会是导火索？</p>
+<ul>
+<li>向战败国赔偿</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>主要人物</p>
+<ul>
+<li>陈独秀</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>五四运动的历史特点</p>
+<ul>
+<li>
+<p>特点</p>
+<ul>
+<li>五四运动表现了反帝反封建的彻底性</li>
+<li>五四运动是一次真正的群众运动</li>
+<li>五四运动促进了马克思主义在中国的传播及其与中国工人运动的结合</li>
+</ul>
+</li>
+<li>
+<p>转折点</p>
+<ul>
+<li>工人阶级第一次登上历史舞台</li>
+<li>指导思想转变为马克思主义思想</li>
+</ul>
+</li>
+<li>
+<p>性质</p>
+<ul>
+<li>彻底的反帝反封建的爱国革命运动</li>
+<li>中国人民为拯救民族危亡、捍卫民族尊严而发起的社会革命运动</li>
+<li>传播新思想新文化新知识的伟大思想启蒙运动和新文化运动</li>
+</ul>
+</li>
+<li>
+<p>精神</p>
+<ul>
+<li>集结全民族力量</li>
+<li>爱国主义</li>
+<li>追求真理、追求进步</li>
+<li>永久奋斗</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_24">第二节 马克思主义进一步传播与中国共产党诞生<a class="headerlink" href="#_24" title="Permanent link"></a></h3>
+<ul>
+<li>一，中国早期马克思主义思想运动</li>
+<li>二，马克思主义与中国工人运动的结合</li>
+<li>
+<p>三，中国共产党的创建及其意义</p>
+<ul>
+<li>
+<p>创建背景</p>
+<ul>
+<li>
+<p>国际</p>
+<ul>
+<li>十月革命胜利</li>
+<li>共产国际帮助</li>
+</ul>
+</li>
+<li>
+<p>国内</p>
+<ul>
+<li>无产阶级壮大</li>
+<li>马克思主义广泛传播</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>创建标志</p>
+<ul>
+<li>中共一大</li>
+</ul>
+</li>
+<li>
+<p>特点</p>
+<ul>
+<li>成立于俄国十月革命胜利、第二国际社会民主主义修正主义破产之后</li>
+<li>是在半殖民地半封建中国的工人运动基础上产生的</li>
+</ul>
+</li>
+<li>
+<p>为什么说共产党的成立是“开天辟地”的大事变？</p>
+<ul>
+<li>坚强的领导核心</li>
+<li>科学的指导思想</li>
+<li>新的革命方法</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_25">第三节 中国革命的新局面<a class="headerlink" href="#_25" title="Permanent link"></a></h3>
+<ul>
+<li>一，制定革命纲领，发动工农运动</li>
+<li>
+<p>二，实行国共合作，掀起大革命高潮</p>
+<ul>
+<li>
+<p>新三民主义</p>
+<ul>
+<li>
+<p>三民主义</p>
+<ul>
+<li>民权、民主、民生</li>
+</ul>
+</li>
+<li>
+<p>联俄、联共、扶助农工</p>
+</li>
+<li>
+<p>“新”在哪里？</p>
+<ul>
+<li>反帝、强调民权平等、关注工人农民</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>大革命</p>
+<ul>
+<li>
+<p>国共合作的反帝反封建的革命斗争</p>
+<ul>
+<li>动员全体</li>
+</ul>
+</li>
+<li>
+<p>转折点</p>
+<ul>
+<li>
+<p>蒋介石勾结外国势力</p>
+<ul>
+<li>四一二反革命</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>为什么失败？</p>
+<ul>
+<li>倒了旧军阀，出现新军阀</li>
+<li>帝国主义仍在中国</li>
+<li>新南京政府仍是资产阶级</li>
+</ul>
+</li>
+<li>
+<p>失败原因</p>
+<ul>
+<li>
+<p>客观</p>
+<ul>
+<li>反革命势力强大</li>
+</ul>
+</li>
+<li>
+<p>主观</p>
+<ul>
+<li>
+<p>中国共产党自身的不足和错误</p>
+<ul>
+<li>陈独秀右倾，过分看轻自己而放弃大部分掌控权</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>性质</p>
+<ul>
+<li>未来革命胜利的演习</li>
+<li>中国共产党领导的反帝反封建的伟大斗争</li>
+</ul>
+</li>
+<li>
+<p>启发</p>
+<ul>
+<li>开始懂得土地革命和革命武装力量的重要性</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="_26">第五章 中国革命的新道路<a class="headerlink" href="#_26" title="Permanent link"></a></h2>
+<h3 id="_27">第一节 对革命新道路的艰苦探索<a class="headerlink" href="#_27" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，国民党在全国统治的建立</p>
+<ul>
+<li>
+<p>背景</p>
+<ul>
+<li>蒋介石谋求党政军全国统一的最高权利</li>
+</ul>
+</li>
+<li>
+<p>蒋介石统一全国的标志</p>
+<ul>
+<li>张学良统治东北</li>
+</ul>
+</li>
+<li>
+<p>国民党政府的性质</p>
+<ul>
+<li>一党专制的军事独裁</li>
+</ul>
+</li>
+<li>
+<p>蒋介石是怎样维护统治的？</p>
+<ul>
+<li>建立庞大军队</li>
+<li>
+<p>建立庞大全国性特务系统</p>
+<ul>
+<li>剿共党，剿政党</li>
+</ul>
+</li>
+<li>
+<p>控制人民、禁止革命活动</p>
+</li>
+<li>控制舆论、剥夺人民言论和出版自由</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，土地革命战争的兴起</p>
+</li>
+<li>
+<p>三，走农村包围城市，武装夺取政权的道路</p>
+<ul>
+<li>
+<p>为什么毛泽东以前的革命都会失败？</p>
+<ul>
+<li>都在城市斗争</li>
+</ul>
+</li>
+<li>
+<p>时间线</p>
+<ul>
+<li>八七会议</li>
+<li>秋收起义</li>
+<li>井冈山会师</li>
+<li>
+<p>古田会议</p>
+<ul>
+<li>思想建党、政治建军、党指挥枪</li>
+</ul>
+</li>
+<li>
+<p>红军长征</p>
+<ul>
+<li>准备不足</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>长征的意义</p>
+<ul>
+<li>宣告国民党反对派剿共失败</li>
+<li>长征结束后继续北上抗日</li>
+<li>是共产党革命从挫折到胜利的转折点</li>
+<li>保留了共产党上层领导并发现大量杰出人物</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_28">第二节 中国革命在探索中曲折前进<a class="headerlink" href="#_28" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，土地革命战争的发展及其挫折</p>
+<ul>
+<li>土地革命在抗日战争之前</li>
+<li>
+<p>共产党历史上的左倾错误</p>
+<ul>
+<li>左倾盲动错误，盲目要求创造总暴动的局面</li>
+<li>李立三，左倾冒险主义，盲目要求举行全国暴动和集中红军力量攻打武汉</li>
+<li>
+<p>王明，左倾教条主义，混淆民主革命和社会主义革命、坚持以城市为中心、推行宗派主义</p>
+<ul>
+<li>主要</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，中国革命的历史性转折</p>
+<ul>
+<li>
+<p>遵义会议</p>
+<ul>
+<li>
+<p>遵义会议召开背景</p>
+<ul>
+<li>湘江战役惨烈情景</li>
+<li>遵义之前还开过三次会议</li>
+</ul>
+</li>
+<li>
+<p>遵义会议的意义</p>
+<ul>
+<li>
+<p>中国共产党独立自主领导中国革命的开端</p>
+<ul>
+<li>没有国际共产的参与</li>
+</ul>
+</li>
+<li>
+<p>开始坚持农村包围城市</p>
+</li>
+<li>领导核心转移</li>
+</ul>
+</li>
+<li>
+<p>遵义会议的性质</p>
+<ul>
+<li>在极其危及的情况下挽救了中国共产党、挽救中国工农红军、挽救中国革命，是中国共产党历史上一个生死攸关的转折点</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>红军长征胜利</p>
+<ul>
+<li>
+<p>红军长征精神</p>
+<ul>
+<li>把全国人民和中华民族的根本利益看得高于一切，坚定革命的理想和信念，坚信正义事业必然胜利</li>
+<li>为了救国救民，不怕任何艰难险阻，不惜付出一切</li>
+<li>坚持独立自主、实事求是，一切从实际出发</li>
+<li>顾全大局、严守纪律、紧密团结</li>
+<li>紧紧依靠人民群众，同人民群众生死相依、患难与共、艰苦奋斗</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，总结历史经验，迎接全民族抗日战争</p>
+</li>
+</ul>
+<h2 id="_29">第六章 中华民族的抗日战争<a class="headerlink" href="#_29" title="Permanent link"></a></h2>
+<h3 id="_30">第一节 日本发动灭亡中国的侵略战争<a class="headerlink" href="#_30" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，日本灭亡中国的计划及其实施</p>
+<ul>
+<li>
+<p>开始标志</p>
+<ul>
+<li>1931年9月18日，日本破坏铁路，反诬中国军队后发起进攻</li>
+</ul>
+</li>
+<li>
+<p>全面进攻标志</p>
+<ul>
+<li>1937年7月7日，日本进攻卢沟桥的中国驻军</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，残暴的殖民统治和中华民族的深重灾难</p>
+<ul>
+<li>
+<p>日本有哪些残暴统治？</p>
+<ul>
+<li>东北伪满州</li>
+<li>重庆陪都</li>
+<li>哈尔滨731部队</li>
+<li>南京大屠杀</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_31">第二节 中国人民奋起抗击日本侵略者<a class="headerlink" href="#_31" title="Permanent link"></a></h3>
+<ul>
+<li>一，中国共产党举起武装抗日的旗帜</li>
+<li>二，抗日救亡运动和共产党人与部分国民党人合作抗日</li>
+<li>
+<p>三，停止内战，一致对外</p>
+<ul>
+<li>
+<p>西安事变</p>
+<ul>
+<li>双十二事变</li>
+<li>爱国将领张学良扣留蒋介石</li>
+</ul>
+</li>
+<li>
+<p>转折点</p>
+<ul>
+<li>国民党开始反抗，开始承认共产党</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>四，全民族抗战开始</p>
+<ul>
+<li>
+<p>性质</p>
+<ul>
+<li>民族解放战争</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_32">第三节 国民党与抗日的正面战场<a class="headerlink" href="#_32" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，战略防御阶段的正面战场</p>
+<ul>
+<li>
+<p>开始标志</p>
+<ul>
+<li>武汉保卫战失败</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，战略相持阶段的正面战场</p>
+<ul>
+<li>
+<p>国民党消极抗战</p>
+<ul>
+<li>只利用南京政府军队反抗，不发动群众</li>
+<li>但至少打破了日本三个月灭亡中国的神话</li>
+<li>真正抗战还得看共产党</li>
+</ul>
+</li>
+<li>
+<p>什么时候开始消极的？</p>
+<ul>
+<li>指导方针变为三分军事，七分政治</li>
+</ul>
+</li>
+<li>
+<p>消极抗战表现</p>
+<ul>
+<li>又开始反共</li>
+</ul>
+</li>
+<li>
+<p>大后方人心变动的转折点</p>
+<ul>
+<li>豫湘桂大溃败</li>
+<li>一边喊着民主，一边压迫人民</li>
+<li>对国民党失望</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_33">第四节 中国共产党成为抗日战争的中流砥柱<a class="headerlink" href="#_33" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，全面抗战的路线和持久战的方针</p>
+<ul>
+<li>
+<p>为什么说是“中流砥柱”？</p>
+<ul>
+<li>最早开始抗战</li>
+<li>抗战时间最长</li>
+<li>战斗意志坚决</li>
+<li>抗战态度主动</li>
+<li>民众敬佩</li>
+<li>赢得投靠</li>
+<li>有形物质力量</li>
+<li>无形精神力量</li>
+</ul>
+</li>
+<li>
+<p>论持久战</p>
+<ul>
+<li>
+<p>意义</p>
+<ul>
+<li>揭示了抗日战争的发展规律和坚持抗战、争取抗战胜利必须实行的战略方针</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，敌后战场的开辟与游击战争的发展及其战略地位</p>
+<ul>
+<li>
+<p>日本”三光“政策</p>
+<ul>
+<li>烧光，杀光，抢光</li>
+<li>针对共产党收复的解放区</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，坚持抗战、团结、进步的方针</p>
+</li>
+<li>四，抗日民主根据地的建设</li>
+<li>五，推进大后方的抗日民主运动和进步文化工作</li>
+<li>六，中国共产党的自身建设</li>
+</ul>
+<h3 id="_34">第五节 抗日战争的胜利及其原因和意义<a class="headerlink" href="#_34" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，抗日战争的胜利</p>
+<ul>
+<li>
+<p>国际力量</p>
+<ul>
+<li>美国原子弹</li>
+<li>苏联援军</li>
+</ul>
+</li>
+<li>
+<p>胜利时间</p>
+<ul>
+<li>1945年9月3日</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，中国人民抗日战争在世界反法西斯战争中的地位</p>
+<ul>
+<li>
+<p>法西斯</p>
+<ul>
+<li>德意志瓜分世界</li>
+</ul>
+</li>
+<li>
+<p>为什么东方是“主战场”？</p>
+<ul>
+<li>开始时间最早</li>
+<li>持续时间最长</li>
+<li>贡献最大</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，抗日战争胜利的原因和意义</p>
+<ul>
+<li>
+<p>胜利原因</p>
+<ul>
+<li>
+<p>以爱国主义为核心的民族精神</p>
+<ul>
+<li>决定因素</li>
+</ul>
+</li>
+<li>
+<p>中国共产党的中流砥柱作用</p>
+<ul>
+<li>关键</li>
+</ul>
+</li>
+<li>
+<p>全民族抗战</p>
+<ul>
+<li>重要法宝</li>
+</ul>
+</li>
+<li>
+<p>国际反法西斯力量的帮助</p>
+</li>
+</ul>
+</li>
+<li>
+<p>胜利意义</p>
+<ul>
+<li>彻底粉碎了日本军国主义殖民奴役中国的图谋</li>
+<li>
+<p>促进了中华民族的大团结，形成了伟大的抗战精神</p>
+<ul>
+<li>
+<p>抗战精神</p>
+<ul>
+<li>天下兴亡，匹夫有责的爱国情怀</li>
+<li>视死如归，宁死不屈的民族气节</li>
+<li>不畏强暴，血战到底的英雄气概</li>
+<li>百折不挠，坚韧不拔的必胜信念</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>对世界反法西斯战争的胜利、维护世界和平的事业产生巨大影响</p>
+</li>
+<li>开辟了中华民族复兴的光明前景</li>
+</ul>
+</li>
+<li>
+<p>启发</p>
+<ul>
+<li>落后就要挨打，但也有可能胜利，决定因素是人心</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="_35">第七章 为新中国而奋斗<a class="headerlink" href="#_35" title="Permanent link"></a></h2>
+<h3 id="_36">第一节 从争取和平民主到进行自卫战争<a class="headerlink" href="#_36" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，中国共产党争取和平民主的斗争</p>
+<ul>
+<li>
+<p>1840~1949年间中国走过的四条道路</p>
+<ul>
+<li>封建主义</li>
+<li>殖民地</li>
+<li>资本主义</li>
+<li>新民主主义</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，国民党发动内战和解放区军民的自卫战争</p>
+<ul>
+<li>1946年6月，国民党挑起内战</li>
+</ul>
+</li>
+</ul>
+<h3 id="_37">第二节 国民党政府处在全民的包围中<a class="headerlink" href="#_37" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，全国解放战争的胜利发展</p>
+<ul>
+<li>
+<p>提出“打倒蒋介石，解放全中国”的口号</p>
+<ul>
+<li>国民党官员发国难财</li>
+<li>剥削百姓，违反民众和平发展的意图</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，土地改革与农民的广泛发动</p>
+</li>
+<li>三，第二条战线的形成和发展</li>
+</ul>
+<h3 id="_38">第三节 中国共产党与民主党派的合作<a class="headerlink" href="#_38" title="Permanent link"></a></h3>
+<ul>
+<li>一，各民主党派的历史发展</li>
+<li>二，中国共产党与民主党派的团结合作</li>
+<li>三，第三条道路的幻灭</li>
+<li>四，中国共产党领导的多党合作、政治协商格局的形成</li>
+</ul>
+<h3 id="_39">第四节 创建人民民族专政的新中国<a class="headerlink" href="#_39" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，南京国民党政权的覆灭</p>
+<ul>
+<li>
+<p>辽沈、淮海、平津三大战役</p>
+<ul>
+<li>张灵甫：抗日名将</li>
+</ul>
+</li>
+<li>
+<p>人民解放军向全国进军</p>
+<ul>
+<li>1949.1 蒋介石求和</li>
+<li>1949.4.23 发起总攻，百万雄狮渡大江</li>
+<li>1927-1949.4.23 国民党反对统治覆灭</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，人民政协与《共同纲领》</p>
+<ul>
+<li>
+<p>共产党如何维持全国统治？</p>
+<ul>
+<li>
+<p>两个务必</p>
+<ul>
+<li>务必使同志们继续保持谦虚、谨慎、不骄、不躁的作风</li>
+<li>务必使同志们继续保持艰苦奋斗的作风</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>1949.3 中共七届二中全会</p>
+</li>
+<li>社会性质、国体、国都、国旗、国徽、国歌、国庆节</li>
+<li>
+<p>意义</p>
+<ul>
+<li>
+<p>确立了中国的新型政党制度</p>
+<ul>
+<li>国共产党领导的多党合作和政治协商制度</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，中国革命胜利的原因和基本经验</p>
+<ul>
+<li>
+<p>原因</p>
+<ul>
+<li>
+<p>有中国共产党领导</p>
+<ul>
+<li>中国工人阶级的先锋队</li>
+</ul>
+</li>
+<li>
+<p>有人民群众支持</p>
+<ul>
+<li>无产阶级和国际无产阶级</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>经验</p>
+<ul>
+<li>
+<p>共产党的特色</p>
+<ul>
+<li>没有剥削压迫，人民为首位</li>
+</ul>
+</li>
+<li>
+<p>人民英雄纪念碑</p>
+<ul>
+<li>1839.6.3 虎门销烟-1949</li>
+<li>
+<p>三个永垂不朽</p>
+<ul>
+<li>1946-1949 三年解放战争</li>
+<li>1919-1949 三十年新民主主义革命战争</li>
+<li>1840-1949 民族独立解放战争</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三个法宝</p>
+<ul>
+<li>
+<p>建立统一战线</p>
+<ul>
+<li>
+<p>工农联盟</p>
+<ul>
+<li>主要</li>
+</ul>
+</li>
+<li>
+<p>同民族资产阶级的联盟</p>
+</li>
+</ul>
+</li>
+<li>
+<p>坚持革命的武装斗争</p>
+<ul>
+<li>中国的武装斗争是工人阶级领导的农民战争</li>
+<li>中国人民解放军的由来</li>
+</ul>
+</li>
+<li>
+<p>加强共产党自身的建设</p>
+<ul>
+<li>
+<p>1929 古田会议开始</p>
+<ul>
+<li>思想建党、政治建军</li>
+</ul>
+</li>
+<li>
+<p>延安作风</p>
+<ul>
+<li>理论联系实践</li>
+<li>密切联系群众</li>
+<li>批评进行整风</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>人民民主专政的新中国的创建意义</p>
+<ul>
+<li>标志着近代以来中国面临的争取民族独立、人民解放这个历史任务基本完成</li>
+<li>为中国集中力量进行建设、实现国家繁荣富强和人民共同富裕创造了前提、开辟了道路</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="1949-2018">下编 从新中国成立到社会主义现代化建设新时期 1949-2018<a class="headerlink" href="#1949-2018" title="Permanent link"></a></h2>
+<h2 id="_40">综述 辉煌的历史进程<a class="headerlink" href="#_40" title="Permanent link"></a></h2>
+<h3 id="_41">二十世纪最重要的三件大事<a class="headerlink" href="#_41" title="Permanent link"></a></h3>
+<h3 id="_42">二十世纪中国共产党完成的三件大事<a class="headerlink" href="#_42" title="Permanent link"></a></h3>
+<h3 id="_43">中国人民什么时候才真正站起来了？<a class="headerlink" href="#_43" title="Permanent link"></a></h3>
+<h2 id="_44">第八章 社会主义基本制度在中国的确立<a class="headerlink" href="#_44" title="Permanent link"></a></h2>
+<h3 id="_45">第一节 从新民主主义向社会主义过渡的开始<a class="headerlink" href="#_45" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，完成民主革命遗留任务和恢复国民经济</p>
+<ul>
+<li>
+<p>面临的难题</p>
+<ul>
+<li>
+<p>巩固新生的人民政权</p>
+<ul>
+<li>
+<p>三大运动</p>
+<ul>
+<li>土地改革运动</li>
+<li>
+<p>抗美援朝运动</p>
+<ul>
+<li>
+<p>抗美援朝精神</p>
+<ul>
+<li>爱国主义精神</li>
+<li>革命英雄主义精神</li>
+<li>革命乐观主义精神</li>
+<li>革命忠诚精神</li>
+<li>国际主义精神</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>镇压反革命运动</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>恢复和发展国民经济</p>
+<ul>
+<li>
+<p>提供物质前提</p>
+<ul>
+<li>没收官僚资本</li>
+<li>帝国在华企业</li>
+</ul>
+</li>
+<li>
+<p>恢复国民经济</p>
+<ul>
+<li>
+<p>财政困难</p>
+<ul>
+<li>恢复生产、稳定物价、统一财政</li>
+</ul>
+</li>
+<li>
+<p>三反、五反</p>
+<ul>
+<li>反贪污、浪费、官僚主义</li>
+<li>反行贿、偷税、偷工减料、窃取国家情报、盗取国家财产</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>维护国家民族独立</p>
+</li>
+<li>
+<p>经受政权考验</p>
+<ul>
+<li>
+<p>两个务必</p>
+<ul>
+<li>务必要保持谦虚谨慎、不骄不躁的作风</li>
+<li>务必要保持艰苦奋斗的作风</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，开始向社会主义过渡</p>
+</li>
+</ul>
+<h3 id="_46">第二节 社会主义道路：历史和人民的选择<a class="headerlink" href="#_46" title="Permanent link"></a></h3>
+<ul>
+<li>一，工业化的任务和发展道路</li>
+<li>
+<p>二，过渡时期总路线反映了历史的必然性</p>
+<ul>
+<li>
+<p>社会主义改造的背景</p>
+<ul>
+<li>
+<p>社会主义性质的国营经济力量强大</p>
+<ul>
+<li>国家工业化的主要基础</li>
+</ul>
+</li>
+<li>
+<p>资本主义经济力量弱小</p>
+</li>
+<li>国际环境促使中国选择社会主义</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_47">第三节 有中国特点的向社会主义过渡的道路<a class="headerlink" href="#_47" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，社会主义工业化与是一种改造同时并举</p>
+<ul>
+<li>
+<p>一化三改造</p>
+<ul>
+<li>
+<p>工业化</p>
+<ul>
+<li>十四五的今天是现代化</li>
+</ul>
+</li>
+<li>
+<p>三大改造</p>
+<ul>
+<li>农业</li>
+<li>手工业</li>
+<li>资本主义工商业</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，农业合作化运动的发展</p>
+<ul>
+<li>
+<p>农业改造的方针</p>
+<ul>
+<li>积极发展、稳步前进、逐步过渡</li>
+</ul>
+</li>
+<li>
+<p>手工业改造的方针</p>
+<ul>
+<li>积极领导、稳步前进</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，对资本主义工商业赎买政策的实施</p>
+<ul>
+<li>
+<p>资本主义工商业改造方法</p>
+<ul>
+<li>没收官僚资本主义</li>
+<li>和平赎买民族资本主义</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>四，社会主义基本制度在中国的全面确立</p>
+<ul>
+<li>和平改造</li>
+<li>
+<p>五四宪法的意义</p>
+<ul>
+<li>
+<p>确定社会性质</p>
+<ul>
+<li>标志着人民代表大会制度的建立</li>
+<li>民主集中制</li>
+<li>基本政治制度</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三大改造的意义</p>
+<ul>
+<li>最伟大、最深刻的改革</li>
+<li>标志着中国进入社会主义</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="_48">第九章 社会主义建设在探索中曲折发展<a class="headerlink" href="#_48" title="Permanent link"></a></h2>
+<h3 id="_49">第一节 良好的开局<a class="headerlink" href="#_49" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，全面建设社会主义的开端</p>
+<ul>
+<li>
+<p>背景</p>
+<ul>
+<li>苏共二十大暴露出很多问题，中国不能照搬</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，早期探索的积极进展</p>
+<ul>
+<li>
+<p>《论十大关系》的基本方针、中共八大的指导思想</p>
+<ul>
+<li>一定要努力把党内党外、国内国外的一切积极的因素，直接的、间接的积极因素，全部调动起来，把我国建设成一个强大的国家</li>
+</ul>
+</li>
+<li>
+<p>中共八大路线的指定</p>
+<ul>
+<li>为社会主义事业的发展和党的建设指明方向</li>
+</ul>
+</li>
+<li>
+<p>《关于正确处理人民内部矛盾的问题》</p>
+<ul>
+<li>系统地阐明了正确处理各种人民内部矛盾的方针和方法</li>
+<li>创造性地阐述了社会主义社会矛盾学说，是对科学社会主义理论的重要发展</li>
+</ul>
+</li>
+<li>
+<p>整风运动</p>
+<ul>
+<li>反对官僚主义、宗派主义、主观主义</li>
+<li>
+<p>上一次整风运动是延安整风运动</p>
+<ul>
+<li>只有作风建设</li>
+<li>这次有思想、组织、作风建设</li>
+</ul>
+</li>
+<li>
+<p>第一次失误</p>
+<ul>
+<li>把一些知识分子、爱国人士、党内干部错划为右派分子</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_50">第二节 探索中的严重曲折<a class="headerlink" href="#_50" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一，大跃进及其纠正</p>
+<ul>
+<li>
+<p>第二次失误</p>
+<ul>
+<li>
+<p>否定我国主要矛盾</p>
+<ul>
+<li>物质文化与生产条件之间的矛盾</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>大跃进</p>
+<ul>
+<li>求强求富的强烈渴望</li>
+</ul>
+</li>
+<li>
+<p>人民公社运动</p>
+<ul>
+<li>损害农民和集体的利益</li>
+<li>脱离农村生产力实际水平</li>
+<li>跑步进入社会主义</li>
+</ul>
+</li>
+<li>
+<p>共产党与其他政党的不同</p>
+<ul>
+<li>自我纠错</li>
+</ul>
+</li>
+<li>
+<p>七千人大会</p>
+<ul>
+<li>
+<p>毛泽东第二次自我批评</p>
+<ul>
+<li>第一次是长征时把川军当成黔军</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二，文化大革命及其结束</p>
+<ul>
+<li>
+<p>性质</p>
+<ul>
+<li>全局性的、长时间的左倾严重错误</li>
+<li>使共产党、国家、人民遭到最严重的挫折和损失</li>
+</ul>
+</li>
+<li>
+<p>领导人</p>
+<ul>
+<li>毛泽东领导的党中央</li>
+</ul>
+</li>
+<li>
+<p>发动目的</p>
+<ul>
+<li>反对修正主义、防止资本主义复辟、维护党的纯洁性和寻求中国的社会主义建设道路</li>
+</ul>
+</li>
+<li>
+<p>失败原因</p>
+<ul>
+<li>毛泽东在“以阶级斗争为纲”的指导思想下，错误估计国内阶级斗争形势与党和国家的政治状况</li>
+</ul>
+</li>
+<li>
+<p>后期发展</p>
+<ul>
+<li>阶级斗争扩大化</li>
+<li>个人崇拜发展迅速</li>
+<li>未能解决这些错误</li>
+<li>野心家放大这些错误</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，严重的曲折，深刻的教训</p>
+<ul>
+<li>
+<p>错误的性质</p>
+<ul>
+<li>由领导者错误发动，被反革命集团利用，给党、国家、人民带来严重灾难的内乱</li>
+</ul>
+</li>
+<li>
+<p>犯错误的原因</p>
+<ul>
+<li>缺乏充分的思想准备和科学研究</li>
+<li>习惯于沿用旧方法旧经验，导致阶级斗争的严重扩大化</li>
+<li>党的民主集中制和集体领导制度遭到破坏，使得党无法依靠制度和集体力量发现并纠正错误</li>
+</ul>
+</li>
+<li>
+<p>对错误的分析</p>
+<ul>
+<li>
+<p>共产党在犯严重错误的时候，性质和宗旨没有发生变化</p>
+<ul>
+<li>人民群众代表根本利益</li>
+<li>发现错误，即使纠正</li>
+</ul>
+</li>
+<li>
+<p>社会主义建设仍被世界认可</p>
+</li>
+</ul>
+</li>
+<li>
+<p>教训</p>
+<ul>
+<li>科学对待马克思主义，认清中国基本国情</li>
+<li>正确认识社会主义的主要矛盾和党的主要任务，坚持以经济建设为中心</li>
+<li>健全民主集中制和集体领导，反对任何形式的个人崇拜和个人专断</li>
+<li>发展社会主义民主，加强社会主义法制</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_51">第三节 建设的成就，探索的结果<a class="headerlink" href="#_51" title="Permanent link"></a></h3>
+<ul>
+<li>一，独立的、比较完整的工业体系和国民经济体系的建立</li>
+<li>二，人民生活的提高与文化、教育、医疗、科技事业的发展</li>
+<li>三，国际地位的提高与国际环境的改善</li>
+<li>四，探索中形成的建设社会主义的若干重要原则</li>
+</ul>
+<h2 id="_52">第十章 中国特色社会主义的开创与接续发展<a class="headerlink" href="#_52" title="Permanent link"></a></h2>
+<h3 id="_53">第一节 历史性的伟大转折和改革开放的起步<a class="headerlink" href="#_53" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>一、历史性的伟大转折</p>
+<ul>
+<li>
+<p>中共十一届三中全会</p>
+<ul>
+<li>
+<p>性质</p>
+<ul>
+<li>新中国成立以来党的历史上具有深远意义的伟大转折</li>
+</ul>
+</li>
+<li>
+<p>意义</p>
+<ul>
+<li>结束了粉碎四人帮后党和国家工作在徘徊中前进的局面</li>
+<li>标志着中国共产党重新确立了马克思主义的思想路线、组织路线</li>
+<li>开始了在思想、政治、组织等领域的全面拨乱反正</li>
+<li>形成了以邓小平为核心的党的中央领导集体</li>
+<li>揭开了改革开放的序幕</li>
+</ul>
+</li>
+<li>
+<p>标志</p>
+<ul>
+<li>中国进入了改革开放和社会主义现代化建设的历史新时期</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>二、改革开放的起步</p>
+<ul>
+<li>1918.12 开始改革开放</li>
+<li>
+<p>改革开放带来哪些变化</p>
+<ul>
+<li>调整、改革、整顿、提高</li>
+</ul>
+</li>
+<li>
+<p>家庭联产承包责任制</p>
+</li>
+<li>邓小平访日访美</li>
+</ul>
+</li>
+<li>
+<p>三、拨乱反正任务的胜利完成</p>
+<ul>
+<li>
+<p>四项基本原则</p>
+<ul>
+<li>坚持社会主义道路</li>
+<li>坚持人民民主专政</li>
+<li>坚持共产党的领导</li>
+<li>坚持马克思列宁主义、毛泽东思想</li>
+</ul>
+</li>
+<li>
+<p>评价毛泽东</p>
+<ul>
+<li>伟大的马克思主义者，伟大的无产阶级革命家、战略家、理论家</li>
+<li>虽然在文化大革命中犯了严重错误，但是他的一生中，他对中国革命的功绩远远大于他的过失</li>
+<li>为中国共产党和中国人民解放军的创立和发展，为中国各族人民解放事业的胜利，为中华人民共和国的缔造和中国社会主义事业的发展，建立了永远不可磨灭的功勋</li>
+<li>毛澤東思想是馬克思列寧主義在中國的運用和發展，是被實踐證明了的關於中國革命和建設的正確理論原則和經驗總結，是中國共產黨集體智慧的結晶</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_54">第二節 改革開放和現代化建設新局面的展開<a class="headerlink" href="#_54" title="Permanent link"></a></h3>
+<ul>
+<li>
+<p>改革開放的起點</p>
+<ul>
+<li>十一屆三中全會：毛澤東《論十大關係》</li>
+</ul>
+</li>
+</ul>
+<h2 id="_55">第十一章 中国特色社会主义进入新时代<a class="headerlink" href="#_55" title="Permanent link"></a></h2>
+<h3 id="_56">第一节 开拓中国特色社会主义更为广阔的发展前景<a class="headerlink" href="#_56" title="Permanent link"></a></h3>
+<ul>
+<li>一，全面建成小康社会目标的确定</li>
+<li>
+<p>二，实现民族复兴中国梦的提出</p>
+<ul>
+<li>
+<p>如何实现中国梦？</p>
+<ul>
+<li>实现中国梦必须走中国道路</li>
+<li>实现中国梦必须弘扬中国精神</li>
+<li>实现中国梦必须凝聚中国力量</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>三，统筹推进“五位一体”总体布局</p>
+<ul>
+<li>经济建设、政治建设、文化建设、社会建设、生态文明建设</li>
+</ul>
+</li>
+<li>
+<p>四，协调推进“四个全面”战略布局</p>
+<ul>
+<li>全面建成小康社会</li>
+<li>全面深化改革</li>
+<li>全面依法治国</li>
+<li>全面从严治党的战略布局</li>
+</ul>
+</li>
+</ul>
+<h3 id="_57">第二节 党和国家事业的历史性成就和历史性变革<a class="headerlink" href="#_57" title="Permanent link"></a></h3>
+<h3 id="_58">第三节 夺取新时代中国特色社会主义伟大胜利<a class="headerlink" href="#_58" title="Permanent link"></a></h3>
+<p><em>XMind: ZEN - Trial Version</em></p></article></body></html><script async>
+document.write(
+  '<script src="http://' +
+  (location.host || 'localhost').split(':')[0] +
+  ':35729/livereload.js?snipver=1" async></' +
+  'script>')
+</script>
